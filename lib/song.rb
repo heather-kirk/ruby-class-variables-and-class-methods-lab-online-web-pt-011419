@@ -35,7 +35,7 @@ class Song
     arr[genre] = 1 
       end 
     end 
-    arr[genre]
+    arr
   end 
   
 end 
