@@ -37,5 +37,16 @@ class Song
     end 
     arr
   end 
+   def self.genre_count
+    arr = {}
+    @@genres.each do |genre|
+    if arr[genre]
+     arr[genre] +=1
+    else 
+    arr[genre] = 1 
+      end 
+    end 
+    arr
+  end 
   
 end 
